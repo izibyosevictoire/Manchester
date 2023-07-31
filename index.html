@@ -10,33 +10,45 @@
 </head>
 
 <body>
-    <nav class="flex justify-between px-5 py-5">
-        <img src="./logo-university-of-manchester.png" alt="logo">
-        <ul class="flex gap-10 text-2xl">
-            <img src="./icon-home-25px-949699.png" alt="home" class="w-8 h-5  ">
-            <li>Study</li>
-            <li>Research</li>
-            <li>Collaborate</li>
-            <li>Discover</li>
-            <li>Connect</li>
-        </ul>
-        <div class="flex border  h-10 border-black rounded justify-items-end px-3 py-3">
-            <img src="./icon-search-mobile.png" alt="search" class="w-8 h-5">
-            <h3>Search</h3>
-        </div>
-    </nav>
-    <div class="bg-[url('/Magazine-Nazir-1400x450.jpeg')] h-[450px] bg-cover px-20 py-20">
-        <h1 class="bg-white w-[290px]">University of Magazines <br> 2023 </h1>
-        <p class="bg-white w-[300px]">Our summer issue celebrates the <br>students, staff and alumni <br>embodying our
+    <nav class="flex justify-between pt-6 px-12 items-center container mx-auto font-thin text-2xl text-stone-700">
+        <span>
+            <img src="./logo-university-of-manchester.png" alt="">
+        </span>
+        <div class="hidden md:flex md:items-center md:text-3xl md:space-x-10 md:font-light">
+            <span>
+                <img src="./icon-home-25px-949699.png" alt="">
+            </span>
+            <span>Research</span>
+            <span>Collaborate</span>
+            <span>Discover</span>
+            <span>Connect</span>
+            <span class="flex items-center gap-2 border border-neutral-600 px-6 py-2 rounded-xl">
+                <img class="h-6" src="./icon-search-mobile.png" alt="">
+                <span>Search</span>
+            </span>
+           </div>
+        </div> 
+          <div class="md:hidden flex gap-2 items-center">
+           <span>
+            <img src="./icon-search-mobile.png" alt="">
+        </span>
+        <span>
+        
+        </span>
+       </div>
+    </nav><br>
+    <div class="bg-[url('/Magazine-Nazir-1400x450.jpeg')] h-[450px] bg-cover px-20 py-20 container mx-auto">
+        <h1 class="bg-white w-[300px] text-3xl ">University Magazines <br> 2023 </h1>
+        <p class="bg-white w-[320px] text-xl font-thin ">Our summer issue celebrates the <br>students, staff and alumni <br>embodying our
             six values as they
             <br>make their mark on the world.
         </p>
         <button class="bg-purple-700 h-[50px] text-white w-[100px]">Read more > </button>
     </div>
-    <div class="text-3xl px-3 py-3">
+    <div class="text-3xl px-3 py-3 container mx-auto">
         <h1>Study</h1>
     </div>
-    <div class="grid grid-cols-3  gap-10 px-3 py-3">
+    <div class="grid grid-cols-3  gap-10 px-3 py-3 container mx-auto">
 
         <div class="bg-purple-700 col-span-2">
             <h1 class="px-3 py-3 text-2xl text-white">Course and programme finder </h1>
@@ -75,7 +87,7 @@
             <h3 class="py-6">Read More > </h3>
         </div>
     </div>
-    <div class="bg-slate-100 ">
+    <div class="bg-slate-100 container mx-auto">
         <h1 class="text-2xl">Discover</h1><br>
         <div class="flex justify-between">
             <div class="flex">
@@ -89,7 +101,7 @@
                 <img src="./icon-events-large.png" alt="map" class="hover:animate-bounce">
                 <div class="py-14 px-3">
                     <h1>Events</h1>
-                    <h2>What's on University </h2>
+                    <h2 class="font-thin">What's on University </h2>
                 </div>
             </div>
             <div class="flex gap-5">
@@ -101,27 +113,28 @@
             </div>
         </div>
     </div><br>
-    <div class="px-5 py-5">
+    <div class="px-5 py-5 container mx-auto">
         <h1 class="text-2xl">Connect</h1><br>
-        <div class="grid grid-cols-3 gap-10">
-            <div class="relative">
-                <img src="./Connect-Jobs.jpeg" alt="jobs" class="bg-cover">
-                <div class="bg-white ">
-                    <h1 class="absolute left-2 bottom-1/4 w-20 h-10 font-bold">Jobs</h1>
-                    <p class="bg-white">We offer every kind of role imaginable. From local<br> talent to global
-                        experts,we want to hear from you.</p>
+        <div class="grid grid-cols-3 gap-10 container mx-auto">
+            <div>
+                <div class="relative">
+                    <img src="./Connect-Jobs.jpeg" alt="" class="bg-cover ">
+                    <p class="absolute bottom-0 left-0  bg-white py-4 px-4 font-semibold">Jobs</p>
                 </div>
-
+                <p>We offer every kind of role imaginable. From local talent to global experts, we want to hear from
+                    you.</p>
             </div>
-            <div class="relative">
-                <img src="./Alumni.jpeg" alt="jobs" class="bg-cover">
-                <h1 class="absolute left-2 bottom-1/3 bg-white  font-bold">Alumni</h1>
-                <p> Enjoy the benefits of being a part of the largest global<br>alumni community of any campus-based
-                    university in<br> the UK.</p>
+            <div>
+                <div class="relative">
+                    <img src="./Alumni.jpeg" alt="jobs" class="bg-cover">
+                    <h1 class="absolute bottom-24 left-0 bg-white py-4 px-4 font-semibold">Alumni</h1>
+                    <p> Enjoy the benefits of being a part of the largest global<br>alumni community of any campus-based
+                        university in<br> the UK.</p>
+                </div>
             </div>
             <div class="relative">
                 <img src="./Teachers-Careers.jpeg" alt="jobs" class="bg-cover">
-                <h1 class="absolute left-2 bottom-1/3 bg-white  font-bold">Teachers and careers advisers</h1>
+                <h1 class="absolute bottom-24 left-0 bg-white px-4 py-4 font-semibold">Teachers and careers advisers</h1>
                 <p>Our tailored support services and engaging activities <br>for pupils of all ages will help make your
                     job easier.</p>
             </div>
@@ -169,30 +182,40 @@
             </div>
         </div>
     </section>
-    <footer class="bg-black text-white flex justify-between px-5 py-5">
-        <div class="">
-            <h1>Contact us </h1><br>
-            <h2>
-                +44 (0) 161 306 6000</h2>
-            <h2>Contact details</h2>
+    <footer class="bg-black container mx-auto">
+        <div>
+            <h1>Disclaimer / Data Protection / Copyright notice / Web accessibility / Freedom of information /
+                Charitable status / Royal Charter Number: RC000797
+            </h1>
         </div>
-        <div class="">
-            <h1>Find us </h1><br>
-            <h2>
-                The University of machester<br>Oxford rd <br> Manchester<br>M13 9PL<br>UK</h2>
-            <h2>Contact details</h2>
-        </div>
-        <div class="">
-            <h1>Connect with us </h1><br>
-            <div class="flex gap-5">
-                <img src="./icon-facebook-50.png">
-                <img src="./icon-twitter-50.png">
-                <img src="./icon-youtube-50.png">
-                <img src="./icon-instagram-50.svg">
-                <img src="./icon-linkedin-R-54.png">
+        <div class="text-white flex justify-between px-5 py-5">
+            <div class="font-thin">
+                <h1>Contact us </h1><br>
+                <h2>
+                    +44 (0) 161 306 6000</h2>
+                <h2>Contact details</h2>
             </div>
-            <h1>Social Media Directory</h1>
+            <div class="font-thin">
+                <h1>Find us </h1><br>
+                <h2>
+                    The University of machester<br>Oxford rd <br> Manchester<br>M13 9PL<br>UK</h2>
+                <h2>Contact details</h2>
+            </div>
+            <div class="font-thin">
+                <h1>Connect with us </h1><br>
+                <div class="flex gap-5">
+                    <img src="./icon-facebook-50.png">
+                    <img src="./icon-twitter-50.png">
+                    <img src="./icon-youtube-50.png">
+                    <img src="./icon-instagram-50.svg">
+                    <img src="./icon-linkedin-R-54.png">
+                </div><br>
+                <h1>Social Media Directory</h1>
+            </div>
+
         </div>
+
+
     </footer>
 </body>
 
